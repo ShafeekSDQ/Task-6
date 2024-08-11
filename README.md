@@ -15,5 +15,5 @@ This repository contains a packet capture file (`ping.pcapng`) generated using W
   ping -c 4 google.com
 ### 3.Observe Captured ICMP Packets in Wireshark
 - **Stopping the Capture**: After the ping command completed, the packet capture was stopped.
-- **Filtering for ICMP**: The capture was filtered to display only ICMP packets using the icmp filter.  
+- **Filtering for ICMP**: The capture was filtered to display only ICMP packets using the `icmp` filter.  
 - **File Saving**: The filtered capture was saved as `ping.pcapng`.
